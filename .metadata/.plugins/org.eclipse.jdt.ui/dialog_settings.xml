@@ -9,6 +9,11 @@
 	</section>
 	<section name="completion_proposal_size">
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="JavaElementSearchActions">
+	</section>
+>>>>>>> 44973e7ed20a1c1bbbcd1a633237a2206da5174c
 	<section name="quick_assist_proposal_size">
 	</section>
 </section>
