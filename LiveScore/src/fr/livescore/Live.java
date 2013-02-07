@@ -123,4 +123,8 @@ public class Live {
 	public void setDebut(Date d) {
 		debut = d;
 	}
+	
+	/*public void newOperation() {
+	
+	}*/
 }
