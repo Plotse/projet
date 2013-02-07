@@ -1,0 +1,126 @@
+package fr.livescore;
+
+import java.util.Date;
+
+public class Live {
+	// Attributs de la classe 
+	private int id;
+	private String nom;
+	private Date created;
+	private String equipe1;
+	private String equipe2;
+	private int scoreEquipe1;
+	private int scoreEquipe2;
+	private String nomCommentateur;
+	private float latitude;
+	private float longitude;
+	private String shortDescription;
+	private String longDescription;
+	private Date debut;	
+	
+	// Getters
+	public int getId() {
+		return id;
+	}
+	
+	public String getNom() {
+		return nom;
+	}
+	
+	public Date getCreated() {
+		return created;
+	}
+	
+	public String getEquipe1() {
+		return equipe1;
+	}
+	
+	public String getEquipe2() {
+		return equipe2;
+	}
+	
+	public int getScoreEquipe1() {
+		return scoreEquipe1;
+	}
+	
+	public int getScoreEquipe2() {
+		return scoreEquipe2;
+	}
+	
+	public String getNomCommentateur() {
+		return nomCommentateur;
+	}
+	
+	public float getLatitude() {
+		return latitude;
+	}
+	
+	public float getLongitude() {
+		return longitude;
+	}
+	
+	public String getShortDesc() {
+		return shortDescription;
+	}
+	
+	public String getLongDesc() {
+		return longDescription;
+	}
+	
+	public Date getDebut() {
+		return debut;
+	}
+	
+	// Setters
+	public void setId(int i) {
+		id = i;
+	}
+	
+	public void setNom(String n) {
+		nom = n;
+	}
+	
+	public void setCreated(Date d) {
+		created = d;
+	}
+	
+	public void setEquipe1(String e) {
+		equipe1 = e;
+	}
+	
+	public void setEquipe2(String e) {
+		equipe2= e;
+	}
+	
+	public void setScoreEquipe1(int s) {
+		scoreEquipe1 = s;
+	}
+	
+	public void setScoreEquipe2(int s) {
+		scoreEquipe2 = s;
+	}
+	
+	public void setNomCommentateur(String n) {
+		nomCommentateur = n;
+	}
+	
+	public void setLatitude(float l) {
+		latitude = l;
+	}
+	
+	public void setLongitude(float l) {
+		longitude = l;
+	}
+	
+	public void setShortDesc(String sd) {
+		shortDescription = sd;
+	}
+	
+	public void setLongDesc(String ld) {
+		longDescription = ld;
+	}
+	
+	public void setDebut(Date d) {
+		debut = d;
+	}
+}
