@@ -1,0 +1,14 @@
+package fr.livescore;
+
+public class Sport {
+	private int id;
+	private String nom;
+	
+	int public getId() {
+		return id;
+	}
+	
+	String public getNom() {
+		return nom;
+	}
+}

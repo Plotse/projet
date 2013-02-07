@@ -1,0 +1,38 @@
+package fr.livescore;
+
+import java.util.Date;
+
+public class Live {
+	// Attributs de la classe 
+	private int id;
+	private String nom;
+	private Date created;
+	private String equipe1;
+	private String equipe2;
+	private int scoreEquipe1;
+	private int scoreEquipe2;
+	private String nomCommentateur;
+	private float latitude;
+	private float longitude;
+	private String shortDescription;
+	private String longDescription;
+	private Date debut;	
+	
+	// Getters
+	public int getId() {
+		return id;
+	}
+	
+	public String getNom() {
+		return nom;
+	}
+	
+	// Setters
+	public void setId(int i) {
+		id = i;
+	}
+	
+	public void setNom(String n) {
+		nom = n;
+	}
+}

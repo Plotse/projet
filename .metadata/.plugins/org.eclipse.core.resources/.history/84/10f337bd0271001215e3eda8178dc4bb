@@ -1,0 +1,20 @@
+package fr.livescore;
+
+public class Sport {
+	private int id;
+	private String nom;
+	
+	public int getId() {
+		return id;
+	}
+	
+	public String getNom() {
+		return nom;
+	}
+	
+	public void setId(int i) {
+		id = i;
+	}
+	
+	
+}
